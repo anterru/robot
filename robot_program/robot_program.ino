@@ -231,7 +231,7 @@ void setup()
 void defaultPosServos(){
     for(int i = 0; i<sizeof(servos)/sizeof(Servo*) ; i++){
         articulation = (char)(i + 48);    //
-        operation        = ADD;
+        operation    = ADD;
         movValue     = *posDefault[i];
         
         moveArticulation();
