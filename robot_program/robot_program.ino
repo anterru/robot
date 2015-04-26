@@ -135,7 +135,7 @@
 /**/                                            &posWrist,                                     /**/
 /**/                                            &posWristRotate,                               /**/
 /**/                                            &posClaw                                       /**/
-                                            };                                                 /**/
+                                        };                                                     /**/
 
           //Default position of each servo
 
