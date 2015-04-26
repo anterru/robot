@@ -118,14 +118,14 @@
 
            //Current position of each servo 
                      
-/**/                   int   posRotate   = 0,                                                  /**/
-/**/                         posBaseL   = 0,                                                   /**/
-/**/                         posBaseR   = 0,                                                   /**/
-/**/                         posShoulder  = 0,                                                 /**/
-/**/                         posElbow    = 0,                                                  /**/
-/**/                         posWrist  = 0,                                                    /**/
+/**/                   int   posRotate      = 0,                                               /**/
+/**/                         posBaseL       = 0,                                               /**/
+/**/                         posBaseR       = 0,                                               /**/
+/**/                         posShoulder    = 0,                                               /**/
+/**/                         posElbow       = 0 ,                                              /**/
+/**/                         posWrist       = 0,                                               /**/
 /**/                         posWristRotate = 0,                                               /**/
-/**/                         posClaw   = 0;                                                    /**/
+/**/                         posClaw        = 0;                                               /**/
 
 /**/                   int   *pos [] = { &posRotate,                                           /**/
 /**/                                            &posBaseL,                                     /**/
