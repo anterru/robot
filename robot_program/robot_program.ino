@@ -66,7 +66,7 @@
 /**/                   #define S_WRIST_ROT         '5'                                         /**/
 /**/                   #define S_CLAW              '6'                                         /**/
 
-/**/                   #define NULL_ARTICULATION   '*'     '                                   /**/
+/**/                   #define NULL_ARTICULATION   '*'                                         /**/
 /**/                   #define ADD                 '+'                                         /**/
 /**/                   #define SUB                 '-'                                         /**/
 /**/                   #define NULL_OPERATION      '/'                                         /**/
@@ -163,7 +163,7 @@
 /**/                  EthernetUDP Udp;                                                         /**/
 /**/                  byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };                     /**/
 /**/                  IPAddress ip(192, 2, 1, 177);                                            /**/
-/**/                  unoperationed int localPort = 8888;                                      /**/
+/**/                  int   localPort = 8888;                                                  /**/
 /**/                  char  bufferRecv[UDP_TX_PACKET_MAX_SIZE];                                /**/ 
 /**/                  char  ackSend[] = "\tack\n",                                             /**/
 /**/                        nackSend[]= "\tnack\n";                                            /**/
@@ -172,9 +172,9 @@
            //Needed to read input values
 
 /**/                  char  articulation    = NULL_ARTICULATION,                               /**/  
-/**/                        operation           = NULL_OPERATION,                              /**/ 
-/**/                        typeMovement  = '0',                                               /**/
-/**/                        movement      = '0';                                               /**/
+/**/                        operation       = NULL_OPERATION,                                  /**/ 
+/**/                        typeMovement    = '0',                                             /**/
+/**/                        movement        = '0';                                             /**/
 /**/                  int   movValue        =  0;                                              /**/
 
           //Needed to read the distance to the closest object
