@@ -139,14 +139,14 @@
 
           //Default position of each servo
 
-/**/                  int    defaultRotate  = 180,                                             /**/
-/**/                         defaultBaseL  = 180,                                              /**/
-/**/                         defaultBaseR  = 180,                                              /**/
+/**/                  int    defaultRotate   = 180,                                            /**/
+/**/                         defaultBaseL    = 180,                                            /**/
+/**/                         defaultBaseR    = 180,                                            /**/
 /**/                         defaultShoulder = 180,                                            /**/
-/**/                         defaultElbow   = 180,                                             /**/
+/**/                         defaultElbow    = 180,                                            /**/
 /**/                         defaultWrist    = 180,                                            /**/
 /**/                         defaultWristRot = 180,                                            /**/
-/**/                         defaultClaw  = 180;                                               /**/
+/**/                         defaultClaw     = 180;                                            /**/
 
 /**/                  int *posDefault [] = { &defaultRotate,                                   /**/
 /**/                                               &defaultBaseL,                              /**/
